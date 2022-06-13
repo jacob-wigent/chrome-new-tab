@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+}
+
+#greeting {
+    /*position: absolute;
+    top: 35%; left: 50%;
+    transform: translate(-50%, -35%);*/
+
+    color: black;
+    font-size: 80px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.center {
+    text-align: center;
+    align-self: center;
+    margin: auto;
+}
+
+.weather {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.weather-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather-info h2 {
+    font-weight: 400;
+}
+
+.weather-info div {
+    font-weight: 300;
+}
+
+.temp, .humidity {
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+.left, .right {
+    margin: 10px;
+}
+
+.description {
+    text-transform: capitalize;
+}
+
+.settings {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.weather-settings:hover {
+    color: rgb(37, 37, 37);
+    cursor: pointer;
+}

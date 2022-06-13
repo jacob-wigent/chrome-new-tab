@@ -1,0 +1,12 @@
+{
+    "name": "New Tab Extension",
+    "description": "Jacob Wigent's custom new tab extension",
+    "version": "0.1",
+    "manifest_version": 3,
+    "chrome_url_overrides":{
+        "newtab": "newtab.html"
+    },
+    "action": {
+        "default_popup": "popup.html"
+      }
+}
